@@ -1,0 +1,488 @@
+body {
+    font-family: 'Jost' , sans-serif;
+    background-color: #242424;
+    height: 100%;
+    max-width: 100%;
+    display: block;
+    margin: 0;
+  }
+  .container {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: block;
+  }
+  a, li {
+    margin-left: 5px;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  .headercontainer img{
+    width: 150px;
+    margin-top: 14px;
+    margin-left: 40px;
+
+  }
+  .clearfix {
+    overflow: auto;
+  }
+  /*header*/
+  header, .headercontainer {
+    overflow: hidden;
+  }
+  .logo {
+    display: block;
+    position: absolute;
+    float: left;
+    padding: 20px 0;
+    margin-left: -30px;
+    width: 200px;
+  }
+  header ul {
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    float: right;
+    height: 100%;
+    line-height: 100px;
+    font-weight: 500;
+  }
+  nav ul li {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  nav ul li:nth-child(6) a img, nav ul li:last-child a img{
+    position: relative;
+    top: 6px;
+    margin-left: -18px;
+  }
+  .class1{
+    margin-left: 65px;
+  }
+
+  nav ul li a {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0 25px;
+    color: white;
+    margin-right: 0px;
+  }
+  nav ul li a:hover {
+    color: red;
+  }
+  nav ul li .navicon {
+    width: 27px;
+    height: 27px;
+  }
+  .navicon{
+    margin-left: 300px;
+  }
+  /*hero*/
+  .herobackground {
+    background: url("img/hero.jpg")no-repeat top/cover;
+    position: relative;
+    height: 350px;
+    width: 100%;
+  }
+  .herobackground h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    padding-top: 105px;
+    font-weight: 700;
+    font-size: 50px;
+    margin: 20px;
+  }
+.herobackground h1{
+  margin-left: 10px;
+}
+
+  .herobackground a {
+    border-radius: 100px;
+    padding: 10px 40px;
+    color: white;
+    background: red;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    margin-left: 525px;
+    
+  }
+  .herobackground a:hover {
+    color: black;
+    background: white;
+  }
+
+  /* MIDDLE NAV */
+
+  .middlenav {
+    background-color: #323131;
+    max-width: 100%;
+    height: 90px;
+  }
+
+  .middlenav .container {
+    display: flex;
+    justify-content: center;
+    gap: 320px;
+    position: relative;
+    top: 14px;
+  }
+
+  .nav_icons img {
+    width: 50px;
+    height: 50px;
+  }
+
+  
+  .images{
+    height: 50px;
+    padding: 20px 60px;
+  }
+  
+  h1{
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 45px;
+  }
+  
+  h3{
+    color: #fff;
+    text-align: center;
+  }
+  .slogan h1 span{
+    color: red;
+  }
+  .slogan{
+    margin-bottom: 85px;
+  }
+  
+  .bottomsection .kratos{
+    height: 350px;
+    margin-top: 50px;
+    margin-left: 10px;
+  }
+  
+  .bottomsection .container h4{
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    margin-top: 100px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 40px;
+    text-transform: uppercase;
+  }
+  
+  .star{
+    height: 16px;
+    display: inline-block;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 104px;
+  }
+  
+  .GOWR .h4{
+    background-color: red;
+    position: absolute;
+    margin-bottom: 100px;
+    color: #fff;
+  }
+  .container .btm1_cont{
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    margin-top: 120px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 40px;
+    text-transform: none;
+    white-space: pre-line;
+    line-height: 35px;
+  }
+  
+  .container .btm1_cont span{
+    background: #FF0202;
+    line-height: 40px;
+    border-radius: 0 0 30px 0;
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin-bottom: -30px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    
+  }
+  .pictures ul li img{
+    max-width: 250px;
+  }
+  .pictures ul li{
+    padding: 10px 0;
+  }
+  .pictures{
+    float: right;
+  }
+  .slogan1 h1{
+    margin-top: 150px;
+    color: #fff;
+    margin-left: -567px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 45px
+  }
+  .slogan1 p{
+    margin-top: -25px;
+    margin-left: 100px;
+    white-space: pre-line;
+    color: #fff;
+    display: inline-block;
+    font-weight: 700;
+  
+  }
+  
+  .slogan1 h1 span{
+    color: red;
+  }
+  .icons ul li img{
+    padding: 10px 0;
+    margin-top: 35px;
+    margin-left: 58px;
+    height: 62px;
+  }
+  
+  p{
+    color: #fff;
+    white-space: pre-line;
+    font-size: 14px;
+    margin-left: 14px;
+    position: absolute;
+    margin-top: 49px;
+    display: inline-block;
+    line-height: 15px;
+    font-weight: 700;
+  }
+  
+  .first {
+  color: #fff;
+  white-space: pre-line;
+  font-size: 14px;
+  margin-left: 14px;
+  justify-content: space-between;
+  position: absolute;
+  margin-top: 170px;
+  display: inline-block;
+  line-height: 15px;
+  }
+  
+  .second{
+    color: #fff;
+    white-space: pre-line;
+    font-size: 14px;
+    margin-left: 14px;
+    justify-content: space-between;
+    position: absolute;
+    margin-top: 293px;
+    display: inline-block;
+    line-height: 15px;
+  }
+  
+  .mask img{
+   width: 570px;
+   float: right;
+   margin: -500px;
+   margin-right: -20px;
+  }
+
+  .footersection ,container{
+    margin-top: 200px;
+    background-color: black;
+    padding: 150px;
+    border-radius: 100px 100px 0 0;
+    margin-bottom: 50px;
+    overflow: hidden;
+    height: 100px;
+    
+  }
+h2 {
+    margin-left: 20px;
+    margin-top: -120px;
+    color: #fff;
+    text-align: left;
+}
+
+.footersection h2 span{
+    color: #FF0202;
+}
+input {
+  padding: 0 35px;
+  border-radius: 100px 0 100px;
+  width: 245px;
+  height: 35px;
+  float: right;
+  margin-top: -50px;
+  position: relative;
+  left: -170px;
+  background-color: #242424;
+  border: 0;
+  position: relative;
+  z-index: 9;
+  color: #fff;
+  font-weight: 600;
+}
+
+input::placeholder{
+  color: #fff;
+}
+
+.envelop {
+  position: relative;
+  display: block;
+  left: 397px;
+  top: -43px;
+  z-index: 99;
+}
+
+.envelop img{
+  height: 17px;
+  margin-top: 2px;
+  margin-left: 8px;
+}
+
+.button{
+  background-color: #FF0202;
+  border-radius: 100px 0 100px;
+  width: 150px;
+  height: 35px;
+  line-height: 3px;
+  border: 0;
+  float: right;
+  margin-top: -75px;
+}
+.button h3{
+  font-size: 14px;
+  font-weight: 600;
+}
+.sent img{
+  height: 15px;
+  margin-top: -65px;
+  margin-left: 848px;
+  position: relative;
+  display: block;
+}
+
+
+.textmodule{
+  padding-top: 55px;
+  display: flex;
+  justify-content: center;
+  gap: 26px;
+  margin-inline: auto;
+  font-weight: 600;
+  margin-left: -133px;
+}
+
+.textmodule h1 {
+  font-size: 20px;
+}
+.products_module h1{
+  margin-top: 5px;
+  margin-left: -70px;
+  text-transform: capitalize;
+}
+.products_module ul {
+  position: relative;
+  left: -43px;
+  line-height: 2.5;
+}
+.need_help h1{
+  margin-top: 9px;
+  margin-left: -85px;
+  text-transform: capitalize;
+}
+.need_help ul{
+  position: relative;
+  left: 43px;
+  line-height: 2.5;
+  width: 300px;
+  font-size: 14px;
+  margin-left: -35px;
+}
+
+.textmodule a {
+  color: #fff;
+}
+
+
+.ftxt {
+  max-width: 200px;
+  padding-inline: 200px;
+}
+.footertext{
+  margin-top: 10px;
+  display: block;
+  position: absolute;
+  margin-left: 15px;
+  
+}
+
+.ftxt .flogo {
+  width: 110px;
+  position: relative;
+  left: 5px;
+}
+
+.ftxt ul li img {
+  width: 20px;
+  height: 20px;
+  margin-left: -34px;
+
+}
+
+.ftxt ul {
+  padding-top: 40px;
+  line-height: 3;
+}
+
+.subtract_space1 {
+  position: relative;
+  top: -50px;
+  width: 300px;
+  margin-left: 5px;
+}
+
+.subtract_space2 {
+  position: relative;
+  top: -100px;
+  width: 500px;
+}
+
+
+.follow_us h1{
+  width: 120px;
+  margin-top: 10px;
+  text-transform: capitalize;
+}
+.follow_us{
+  position: relative;
+  left: -75px;
+}
+
+.images {
+  position: absolute;
+  display: flex;
+  margin-left: -56px;
+  height: 20px;
+  width: 20px;
+  gap: 10px;
+  margin-top: -12px;
+}
+
+
+.credit_module .container  {
+ display: flex;
+ justify-content: center;
+ margin-top: -80px;
+}

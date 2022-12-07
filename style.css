@@ -464,6 +464,7 @@ input::placeholder{
   width: 120px;
   margin-top: 10px;
   text-transform: capitalize;
+  margin-left 35px;
 }
 .follow_us{
   position: relative;

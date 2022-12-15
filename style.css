@@ -10,17 +10,16 @@ body {
     margin: 0;
   }
   .container {
-
+    max-width: 1180px;
+    margin: 0 auto;
+    display: block;
   }
   a, li {
     margin-left: 5px;
     text-decoration: none;
     list-style-type: none;
   }
-  .headercontainer img{
-
-
-  }
+  
   .clearfix {
     overflow: auto;
   }
@@ -35,7 +34,13 @@ body {
     padding: 20px 0;
     margin-left: -30px;
     width: 200px;
+    margin-top: 10px;
   }
+.logo img{
+  width: 150px;
+}
+
+
   header ul {
     margin: 0;
     padding: 0;
@@ -50,13 +55,15 @@ body {
     display: inline-block;
     vertical-align: middle;
   }
-  nav ul li:nth-child(6) a img, nav ul li:last-child a img{
+  nav ul li:nth-child(5) a, nav ul li:last-child a{
+    position: relative;
+    top: 0px;
+    margin-left: 7px;
+  }
+  .class1 img{
+    margin-left: 5px;
     position: relative;
     top: 6px;
-    margin-left: -18px;
-  }
-  .class1{
-    margin-left: 65px;
   }
 
   nav ul li a {
@@ -65,6 +72,8 @@ body {
     padding: 0 25px;
     color: white;
     margin-right: 0px;
+    font-weight: 600;
+  
   }
   nav ul li a:hover {
     color: red;
@@ -75,11 +84,12 @@ body {
   }
 
   .navicon{
-    margin-left: 300px;
+    margin-left: -80px;
   }
+
   /*hero*/
   .herobackground {
-    background: url("/hero.jpg")no-repeat top/cover;
+    background: url("img/hero.jpg")no-repeat top/cover;
     position: relative;
     height: 300px;
     width: 100%;
@@ -88,13 +98,13 @@ body {
     text-align: center;
     text-transform: uppercase;
     color: white;
-    padding-top: 95px;
+    padding-top: 125px;
     font-weight: 700;
     font-size: 50px;
     margin: 0px;
   }
 .herobackground h1{
-  margin-left: 15px;
+  margin-left: 20px;
 }
 
 /*instructor john nel lim 
@@ -372,8 +382,8 @@ input::placeholder{
   margin-top: -75px;
 }
 .button a{
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 700;
   color: white;
   justify-content: center;
   display: flex;
@@ -384,7 +394,7 @@ input::placeholder{
 .sent img{
   height: 15px;
   margin-top: -65px;
-  margin-left: 848px;
+  margin-left: 850px;
   position: relative;
   display: block;
 }
